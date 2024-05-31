@@ -105,7 +105,8 @@ f_plus,f_minus = fidelity(explainer,explanation)
 
 print("finished")
 
-f_plus,f_minus,f_d, f_plus_label,f_minus_label,f_d_label = robust_fidelity(explainer,explanation,undirect=True,top_k=5)
+f_plus,f_minus,f_d, f_plus_label,f_minus_label,f_d_label = robust_fidelity(explainer,explanation,undirect=True,top_k=5,
+                                                                          alpha1=0.2,alpha2=0.8)
 
 print("node robust fidelity finished")
 
