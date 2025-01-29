@@ -1,6 +1,8 @@
 # This Project is for our work, $Fidelity_\alpha$ , [TOWARDS ROBUST FIDELITY FOR EVALUATING EXPLAINABILITY OF GRAPH NEURAL NETWORKS(ICLR2024)](https://openreview.net/pdf?id=up6hr4hIQH)[[TrustLOG@WWW]](https://trustai4s-lab.github.io/papers/TheWebConf24-robust%20fidelity.pdf)
 
 
+# Update! We add another sample for graph classifications.
+
 ## use fidelity as metric
 - If you just want to use our fidelity for evaluation, please use tools folder.
 - Please refer to example.py
