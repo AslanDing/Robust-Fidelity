@@ -37,7 +37,7 @@ model = GCN(1,20,2)
 ori_pred = model(x,edge_index,batch)[0,y].item()
 print(ori_pred)
 
-# generate a important 
+# generate a sample of explanation
 edge_mask = np.random.randn(50, 1)
 
 
@@ -60,7 +60,7 @@ bin_mask[idxes[top_k:]] = alpha_1
 # union_masks = union_masks*(1-bin_mask) + bin_mask
 fid_plus_list = []
 for i in range(sample_number):
-    mask_sample = torch.bernoulli(torch.from_numpy(bin_mask).float())
+    mask_sample = torch.bernoulli(torch.from_numpy(bin_mask).float())  # sampling 
     fid_tmp =  model(x,edge_index,batch,edge_mask=mask_sample)[0,y].item()
     fid_plus_list.append(ori_pred-fid_tmp)
 fid_plus = np.mean(fid_plus_list)
