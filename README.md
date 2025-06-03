@@ -65,7 +65,8 @@
 </center>
 
 
-### Acknowledge. This project is base on \[RE\]-PGExplainer [link](https://github.com/LarsHoldijk/RE-ParameterizedExplainerForGraphNeuralNetworks/blob/main/README.md)
+### Acknowledgement. 
+This project is base on \[RE\]-PGExplainer [link](https://github.com/LarsHoldijk/RE-ParameterizedExplainerForGraphNeuralNetworks/blob/main/README.md)
 
 ### If this work is helpful for you, please consider citing our paper.
 
