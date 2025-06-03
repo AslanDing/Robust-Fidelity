@@ -3,6 +3,8 @@
 
 # Update! We add another [sample](./example_graph.py)(easy to use) for graph classifications.
 
+# Update! We provide [F-Fidelity](https://github.com/AslanDing/Finetune-Fidelity) for other domains, such as image and time series.
+
 ## use fidelity as metric
 - If you just want to use our fidelity for evaluation, please use tools folder.
 - Please refer to example.py
